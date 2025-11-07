@@ -1,0 +1,35 @@
+<!DOCTYPE html><html lang="en"><head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Photo Cropper</title>
+        <link rel="stylesheet" href="/1.6%20TS%20prac.2cdaf7bc.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.13/cropper.min.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <h1 class="title">Photo Cropper</h1>
+        </div>
+
+        <input type="file" id="fileInput" accept="image/*">
+
+        <div class="image-comparison">
+            <div class="image-comparison__block">
+                <h2 class="image-comparison__title">Original Photo</h2>
+                <div class="image-comparison__wrapper">
+                    <img class="image-comparison__img" id="image" alt="Upload Image">
+                </div>
+                <button class="image-comparison__btn" id="cropBtn" type="button">Crop Image</button>
+            </div>
+
+            <div class="image-comparison__block">
+                <h2 class="image-comparison__title">Cropped</h2>
+                <canvas class="image-comparison__canvas" id="resultCanvas"></canvas>
+                <button class="image-comparison__btn" type="button" id="downloadBtn" disabled="">Download new Image</button>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.13/cropper.min.js"></script>
+        <script src="/1.6%20TS%20prac.de158e3a.js"></script>
+    
+<script src="/1.6%20TS%20prac.59712999.js"></script></body></html>
